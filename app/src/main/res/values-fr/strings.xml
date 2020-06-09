@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trabajo Practico 2</string>
+    <string name="restar">Soustraire</string>
+    <string name="sumar">Ajouter</string>
+    <string name="ocultar">Cacher</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="zoom">Zoom +</string>
+    <string name="zoomMenos">Zoom -</string>
+    <string name="_0">0</string>
+    <string name="dolar_usa">DOLLAR (USA)</string>
+    <string name="real_brasil">RÉEL (BRÉSIL)</string>
+    <string name="icono_de_app">icône de l\'application</string>
+    <string name="conversor_de_monedas">Convertisseur de Devises</string>
+    <string name="seleccione_una_moneda">Sélectionnez la Devise</string>
+    <string name="ingrese_monto_en_pesos">Entrez le Montat en Pesos</string>
+    <string name="euro">EURO</string>
+    <string name="resultado">Résultat</string>
+    <string name="convertir">Convertir</string>
+    <string name="reiniciar">Redémarrer</string>
+</resources>

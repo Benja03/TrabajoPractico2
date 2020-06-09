@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trabajo Practico 2</string>
+    <string name="sumar">Add</string>
+    <string name="ocultar">Hide</string>
+    <string name="reset">Reset</string>
+    <string name="restar">Subtract</string>
+    <string name="zoom">Zoom +</string>
+    <string name="zoomMenos">Zoom -</string>
+    <string name="_0">0</string>
+    <string name="dolar_usa">DOLAR (USA)</string>
+    <string name="real_brasil">REAL (BRAZIL)</string>
+    <string name="icono_de_app">Apps Icon</string>
+    <string name="conversor_de_monedas">Currency Converter</string>
+    <string name="seleccione_una_moneda">Select Currency</string>
+    <string name="convertir">Convert</string>
+    <string name="reiniciar">Reset</string>
+    <string name="ingrese_monto_en_pesos">Enter Amount in Pesos</string>
+    <string name="euro">EURO</string>
+    <string name="resultado">Result</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/Cont_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="176dp"
+                android:layout_height="146dp"
+                android:contentDescription="@string/icono_de_app"
+                app:srcCompat="@drawable/ic_transferir" />
+
+            <TextView
+                android:id="@+id/txt_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="@string/conversor_de_monedas"
+                android:textColor="#673AB7"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edTxt_Entrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/ingrese_monto_en_pesos"
+                android:inputType="numberDecimal"
+                android:textSize="16sp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/txt_Intruccion"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/seleccione_una_moneda"
+                android:textColor="#E91E63"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="267dp"
+                android:layout_height="112dp">
+
+                <RadioButton
+                    android:id="@+id/rdBtn_USA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/dolar_usa"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rdBtn_EURO"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/euro"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rdBtn_Brasil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/real_brasil"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edTxt_Resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ems="10"
+                android:hint="@string/resultado"
+                android:inputType="none|number|textPersonName"
+                android:textSize="16sp"
+                android:autofillHints="" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/btn_Convertir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="83dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="41dp"
+                    android:backgroundTint="#673AB7"
+                    android:text="@string/convertir"
+                    android:textColor="#FBFBFB"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_Reiniciar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_Reiniciar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="99dp"
+                    android:backgroundTint="#673AB7"
+                    android:text="@string/reiniciar"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_Convertir"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
