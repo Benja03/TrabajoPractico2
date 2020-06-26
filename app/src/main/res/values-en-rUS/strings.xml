@@ -18,4 +18,10 @@
     <string name="ingrese_monto_en_pesos">Enter Amount in Pesos</string>
     <string name="euro">EURO</string>
     <string name="resultado">Result</string>
+    <string name="bienvenido_de_nuevo">Welcome Again</string>
+    <string name="ingrese_su_nombre">TYPE YOUR NAME</string>
+    <string name="recordar_usuario">Remember User</string>
+    <string name="ingresar">Enter</string>
+    <string name="sin_registrar_crear_usuario">No Registered? Create User</string>
+    <string name="ingrese_su_contrasena">TYPE YOUR PASSWORD</string>
 </resources>

@@ -17,4 +17,11 @@
     <string name="ingrese_monto_en_pesos">Ingrese Monto en Pesos</string>
     <string name="euro">EURO</string>
     <string name="resultado">Resultado</string>
+    <string name="bienvenido_de_nuevo">Bienvenido de Nuevo</string>
+    <string name="ingrese_su_nombre">INGRESE SU NOMBRE</string>
+    <string name="recordar_usuario">Recordar Usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="sin_registrar_crear_usuario">Sin Registrar? Crear Usuario</string>
+    <string name="ingrese_su_contrasena">INGRESE SU CONTRASEÑA</string>
+    <string name="logo_de_ites" translatable="false">Logo de Ites</string>
 </resources>

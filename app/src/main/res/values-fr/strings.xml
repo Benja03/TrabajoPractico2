@@ -18,4 +18,10 @@
     <string name="resultado">Résultat</string>
     <string name="convertir">Convertir</string>
     <string name="reiniciar">Redémarrer</string>
+    <string name="bienvenido_de_nuevo">Bieanvenue à Nouveau</string>
+    <string name="ingrese_su_nombre">ENTREZ VOTRE NOM</string>
+    <string name="recordar_usuario">Rappelez-vous l\'utilisateur</string>
+    <string name="ingresar">Se Connecter</string>
+    <string name="sin_registrar_crear_usuario">Non Enregistré? Créer un utilisateur</string>
+    <string name="ingrese_su_contrasena">ENTREZ VOTRE MOT DE PASE</string>
 </resources>

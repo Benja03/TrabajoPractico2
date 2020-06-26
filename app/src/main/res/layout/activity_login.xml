@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_Logo_LogIn"
+        android:layout_width="193dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/logo_de_ites"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_ites" />
+
+    <TextView
+        android:id="@+id/txt_Bienvenida_LogIn"
+        android:layout_width="192dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/bienvenido_de_nuevo"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Logo_LogIn" />
+
+    <EditText
+        android:id="@+id/edtTxt_Nombre_LogIn"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_su_nombre"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Bienvenida_LogIn" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="327dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="80dp" />
+
+    <EditText
+        android:id="@+id/edtTxt_Contrasena_Login"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_su_contrasena"
+        android:inputType="number|textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxt_Nombre_LogIn" />
+
+    <Switch
+        android:id="@+id/swt_RecUsuario_LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#757373"
+        android:thumbTint="#7C7979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxt_Contrasena_Login" />
+
+    <TextView
+        android:id="@+id/txt_RecUsuario_LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/recordar_usuario"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/swt_RecUsuario_LogIn"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxt_Contrasena_Login" />
+
+    <Button
+        android:id="@+id/btn_Ingresar_LogIn"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#673AB7"
+        android:text="@string/ingresar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swt_RecUsuario_LogIn" />
+
+    <TextView
+        android:id="@+id/txt_SinRegistrar_LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/sin_registrar_crear_usuario"
+        android:textColor="#9C27B0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Ingresar_LogIn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
