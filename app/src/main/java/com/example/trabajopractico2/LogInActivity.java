@@ -14,8 +14,8 @@ public class LogInActivity extends AppCompatActivity {
 
     private Button btn_Ingresar_Login;
     private EditText edtTxt_Nombre_Login, edtTxt_Contrasena_Login;
-    //private Switch swt_RecUsuario_Login;
-    //private TextView txt_SinRegistrar_Login;
+    private Switch swt_RecUsuario_Login;
+    private TextView txt_SinRegistrar_Login;
 
 
     @Override
@@ -26,8 +26,8 @@ public class LogInActivity extends AppCompatActivity {
         btn_Ingresar_Login = findViewById(R.id.btn_Ingresar_LogIn);
         edtTxt_Nombre_Login = findViewById(R.id.edtTxt_Nombre_LogIn);
         edtTxt_Contrasena_Login = findViewById(R.id.edtTxt_Contrasena_Login);
-        //swt_RecUsuario_Login = findViewById(R.id.swt_RecUsuario_LogIn);
-        //txt_SinRegistrar_Login = findViewById(R.id.txt_SinRegistrar_LogIn);
+        swt_RecUsuario_Login = findViewById(R.id.swt_RecUsuario_LogIn);
+         txt_SinRegistrar_Login = findViewById(R.id.txt_SinRegistrar_LogIn);
 
         btn_Ingresar_Login.setOnClickListener(new View.OnClickListener() {
             @Override

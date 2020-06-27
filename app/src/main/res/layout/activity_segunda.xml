@@ -56,6 +56,7 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/rdBtn_Grupo"
                 android:layout_width="267dp"
                 android:layout_height="112dp">
 
@@ -88,12 +89,12 @@
                 android:id="@+id/edTxt_Resultado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:clickable="false"
+                android:autofillHints=""
+                android:clickable="true"
                 android:ems="10"
                 android:hint="@string/resultado"
-                android:inputType="none|number|textPersonName"
-                android:textSize="16sp"
-                android:autofillHints="" />
+                android:inputType="number"
+                android:textSize="16sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -109,12 +110,12 @@
                     android:backgroundTint="#673AB7"
                     android:text="@string/convertir"
                     android:textColor="#FBFBFB"
-                    app:layout_constraintEnd_toStartOf="@+id/btn_Reiniciar"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_Reiniciar_Conv"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/btn_Reiniciar"
+                    android:id="@+id/btn_Reiniciar_Conv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="41dp"

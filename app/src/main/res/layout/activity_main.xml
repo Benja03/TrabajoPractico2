@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_ZoomMas" />
 
     <Button
-        android:id="@+id/btn_Reset"
+        android:id="@+id/btn_Reset_Calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
